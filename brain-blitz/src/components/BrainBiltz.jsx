@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 import Card from './Card1'
 import '../Brainbiltz.css'
 import Card1 from './Card1'
+import CardGroup from 'react-bootstrap/CardGroup';
 
 
 export default function BrainBiltz(props) {
@@ -9,7 +10,6 @@ export default function BrainBiltz(props) {
   return (
 
     <div className='contianer'>
-
       <div className='row'>
 
         <Card1 />
@@ -35,7 +35,11 @@ export default function BrainBiltz(props) {
         <Card />
         <Card />
       </div>
+    </div>
 
-    </div >
+
+
+
+
   )
 }
